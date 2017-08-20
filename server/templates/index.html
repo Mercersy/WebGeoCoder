@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <title> Web GeoCoder</title>
+    <head>
+        <link href="../static/main.css" rel = "stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1> Web GeoCoder </h1>
+
+
+            <div class="message">
+                {{text | safe}}
+            </div>
+
+            <form action = "{{url_for('submit')}}" method="POST">
+                <input title="address" placeholder="Address.." type="text" name="address_name" required>
+                <input title="company" placeholder="Company Name.." type="text" name="company_name">
+                <input title="hc" placeholder="Number of Staff.." type="number" name="hc_name">
+                <button type="submit" > Submit </button>
+            </form>
+
+        </div>
+    </body>
+
+</html>
