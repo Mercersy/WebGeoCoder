@@ -46,3 +46,23 @@ html, body {
 .message {
     text-align: center;
 }
+
+.clean {
+    margin-left: 1122px;
+    margin-top: 20px;
+}
+
+.login {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-color: #2F4F4F;
+    color: #000000;
+    overflow: hidden;
+}
+
+.logout {
+    margin-left: 1122px;
+    margin-top: 20px;
+}
